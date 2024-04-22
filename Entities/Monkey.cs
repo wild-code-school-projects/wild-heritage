@@ -6,6 +6,9 @@ internal class Monkey : Animal
 {
     public override string Espece => "Monkey";
 
+    public override int Foots => 2;
+
+
     public override void Eats()
     {
         base.Eats();

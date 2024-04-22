@@ -6,6 +6,8 @@ internal class Elephant : Animal
 {
     public override string Espece => "Elephant";
 
+    public override int Foots => 4;
+
     public override void Eats()
     {
         base.Eats();

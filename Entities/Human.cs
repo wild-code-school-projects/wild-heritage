@@ -5,6 +5,8 @@ namespace ConsoleApp1.Entities;
 internal class Human : Animal
 {
     public override string Espece => "Human";
+    public override int Foots => 2;
+
 
     public override void Move()
     {
